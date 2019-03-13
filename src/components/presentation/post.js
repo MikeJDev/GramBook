@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity } from "react-native";
 import config from "../../config";
+import faker from 'faker'
 
 class Post extends React.Component {
   constructor() {
